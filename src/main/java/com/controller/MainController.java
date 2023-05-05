@@ -31,7 +31,7 @@ public class MainController {
 	public String test() {
 		return "testjsp";
 	}
-	//User Handler Method.
+	//Commit Again
 	@RequestMapping(value="/User",method=RequestMethod.POST)
 	public String UserAdd(@ModelAttribute("user") User user, Model model) throws Exception {
 		System.out.println(user.getSno());
