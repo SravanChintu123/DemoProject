@@ -34,7 +34,7 @@ public class MainController {
 	//Commit Again fhjsjhdf
 	@RequestMapping(value="/User",method=RequestMethod.POST)
 	public String UserAdd(@ModelAttribute("user") User user, Model model) throws Exception {
-		System.out.println("**"+user.getSno());
+		System.out.println("**###"+user.getSno());
 		System.out.println(user.getSno());
 		System.out.println(user.getBrand());
 		System.out.println(user.getColor());
