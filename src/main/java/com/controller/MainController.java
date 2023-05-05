@@ -32,6 +32,7 @@ public class MainController {
 		return "testjsp";
 	}
 	//Commit Again dfgjdf
+	//Commit Again fhjsjhdf
 	@RequestMapping(value="/User",method=RequestMethod.POST)
 	public String UserAdd(@ModelAttribute("user") User user, Model model) throws Exception {
 		System.out.println(user.getSno());
